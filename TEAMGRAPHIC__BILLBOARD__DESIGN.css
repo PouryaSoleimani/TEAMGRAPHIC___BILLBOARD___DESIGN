@@ -6,13 +6,13 @@
     #2c2c2c30,
     #2c2c2c20 0.05em,
     #fafafa 0.3em,
-    white 9em
+    #fff 9em
   );
 }
 .BILLBOARD__HEADER__BUTTON {
   padding: 4px 50px 12px 50px !important;
   font-weight: 900;
-  color: white !important;
+  color: #fff !important;
   font-size: 22px !important;
   letter-spacing: -0.2px;
   display: flex;
@@ -22,14 +22,16 @@
   border-radius: 31px !important;
 }
 .billboard-swiper-tg {
-  background: lightgray;
+  background: #d3d3d3;
   border-radius: 60px;
 }
 .billboard-intro-heading {
+  font-size: 20px;
+  width: 60%;
+  margin: 0;
   letter-spacing: -0.05em;
-  font-weight: 600;
-  text-align: 28px;
+  font-weight: 500;
   text-align: center;
   padding: 2rem 1rem;
-  line-height: 1.5;
+  line-height: 2;
 }
