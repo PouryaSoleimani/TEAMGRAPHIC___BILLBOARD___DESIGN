@@ -25,3 +25,12 @@
   background: lightgray;
   border-radius: 60px;
 }
+.billboard-intro-heading {
+  letter-spacing: -0.05em;
+  font-weight: 600;
+  text-align: 28px;
+  text-align: center;
+  padding: 2rem 1rem;
+  line-height: 1.5;
+}
+/* tracking-tighter font-semibold text-2xl text-center */
