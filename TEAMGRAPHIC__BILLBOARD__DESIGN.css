@@ -1,0 +1,12 @@
+.BILLBOARD__HEADER__BUTTON {
+  padding: 4px 50px 12px 50px !important;
+  font-weight: 900;
+  color: white !important;
+  font-size: 22px !important;
+  letter-spacing: -0.2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.75;
+  border-radius: 31px !important;
+}
