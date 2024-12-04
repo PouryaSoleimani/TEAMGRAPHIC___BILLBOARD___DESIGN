@@ -27,6 +27,7 @@
 }
 .billboard-cat-slide > img {
   object-fit: contain !important;
+  height: 130% !important;
 }
 .billboard-intro-heading {
   font-size: 14px;
