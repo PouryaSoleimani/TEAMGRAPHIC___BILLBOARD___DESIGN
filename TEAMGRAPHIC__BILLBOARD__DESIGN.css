@@ -25,6 +25,9 @@
   background: #d3d3d3;
   border-radius: 60px;
 }
+.billboard-cat-slide {
+  padding: 0rem 11rem;
+}
 .billboard-cat-slide > img {
   object-fit: contain !important;
   height: 130% !important;
@@ -44,5 +47,8 @@
   .billboard-intro-heading {
     width: 60%;
     font-size: 20px;
+  }
+  .billboard-cat-slide {
+    padding: 0rem 11rem;
   }
 }
