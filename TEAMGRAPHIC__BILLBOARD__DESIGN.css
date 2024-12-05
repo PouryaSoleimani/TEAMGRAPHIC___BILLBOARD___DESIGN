@@ -73,7 +73,7 @@
   right: -30px;
 }
 
-#BILLBOARD__SVG {
+svg {
   height: 300px;
   overflow: visible;
   width: 300px;
