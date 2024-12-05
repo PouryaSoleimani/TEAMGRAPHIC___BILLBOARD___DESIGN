@@ -135,44 +135,44 @@
 
                 tl.to(".BILLBOARD__CIRCULAR__WRAPPER", {   rotation: 360,  transformOrigin: "center",  duration: 1,   ease: "none"  });
 
-    tl.to(items,  {  rotation: "-=360",  transformOrigin: "center",  duration: 1,  ease: "none"  },0);
+             tl.to(items,  {  rotation: "-=360",  transformOrigin: "center",  duration: 1,  ease: "none"  },0);
 
-    tl.to( tracker, {  item: numItems,  duration: 1,  ease: "none",  modifiers: {    item(value) {      return wrapTracker(numItems - Math.round(value));    }  }}, 0);
+           tl.to( tracker, {  item: numItems,  duration: 1,  ease: "none",  modifiers: {    item(value) {      return wrapTracker(numItems - Math.round(value));    }  }}, 0);
 
-    items.forEach(function (el, i) { el.addEventListener("click", function () {var current = tracker.item,activeItem = i;if (i === current) {  return;}
+           items.forEach(function (el, i) { el.addEventListener("click", function () {var current = tracker.item,activeItem = i;if (i === current) {  return;}
 
-    //set active item to the item that was clicked and remove active class from all items
-    document.querySelector(".BILLBOARD__CIRCULAR__ITEM.active").classList.remove("active");
-    items[activeItem].classList.add("active");
+           //set active item to the item that was clicked and remove active class from all items
+           document.querySelector(".BILLBOARD__CIRCULAR__ITEM.active").classList.remove("active");
+           items[activeItem].classList.add("active");
 
-    var diff = current - i;
+         var diff = current - i;
 
-    if (Math.abs(diff) < numItems / 2) {moveWheel(diff * itemStep);} else {var amt = numItems - Math.abs(diff);
+                if (Math.abs(diff) < numItems / 2) {moveWheel(diff * itemStep);} else {var amt = numItems - Math.abs(diff);
 
-      if (current > i) {  moveWheel(amt * -itemStep);} else {moveWheel(amt * itemStep);}  }
-  });
-});
+              if (current > i) {  moveWheel(amt * -itemStep);} else {moveWheel(amt * itemStep);}  }
+               });
+                   });
 
-document.getElementById("next").addEventListener("click", function () {
-  return moveWheel(-itemStep);
-});
+        document.getElementById("next").addEventListener("click", function () {
+        return moveWheel(-itemStep);
+        });
 
-document.getElementById("prev").addEventListener("click", function () {
-  return moveWheel(itemStep);
-});
+        document.getElementById("prev").addEventListener("click", function () {
+         return moveWheel(itemStep);
+                });
 
-function moveWheel(amount, i, index) {
-  let progress = tl.progress();
-  tl.progress(wrapProgress(snap(tl.progress() + amount)));
-  let next = tracker.item;
-  tl.progress(progress);
+        function moveWheel(amount, i, index) {
+         let progress = tl.progress();
+         tl.progress(wrapProgress(snap(tl.progress() + amount)));
+         let next = tracker.item;
+         tl.progress(progress);
 
-  document.querySelector(".BILLBOARD__CIRCULAR__ITEM.active").classList.remove("active");
-  items[next].classList.add("active");
+             document.querySelector(".BILLBOARD__CIRCULAR__ITEM.active").classList.remove("active");
+             items[next].classList.add("active");
 
-  gsap.to(tl, {  progress: snap(tl.progress() + amount),    modifiers: {progress: wrapProgress}
-  });
-}
+        gsap.to(tl, {  progress: snap(tl.progress() + amount),    modifiers: {progress: wrapProgress}
+        });
+        }
 
         </script>
         <!-- *  END  ================================================================================================================================================================= -->
