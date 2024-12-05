@@ -76,10 +76,11 @@
                 <div class="BILLBOARD__CIRCULAR__ITEM  6">6</div>
                 <div class="BILLBOARD__CIRCULAR__ITEM  7">7</div>
                 <div class="BILLBOARD__CIRCULAR__ITEM  8">8</div>
-                <svg viewBox="0 0 300 300">
+                <!-- <svg viewBox="0 0 300 300">
                     <circle id="holder" class="st0" cx="151" cy="151" r="150" />
-                </svg>
+                </svg> -->
                 <!-- <i id="holder" class="fa fa-circle-o st0" cx="151" cy="151" r="150"></i> -->
+                <div id="holder" class="circle"></div>
             </div>
             <div class="BILLBOARD__CIRCULAR__START">&#8592; Active</div>
         </div>
@@ -112,7 +113,7 @@
                 clickable: true,
               },
             });
-         </script>
+        </script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/MotionPathPlugin.min.js"></script>
         <script>
@@ -120,7 +121,7 @@
 
         const circlePath = MotionPathPlugin.convertToPath("#holder", false)[0];
           circlePath.id = "circlePath";
-           document.querySelector("svg").prepend(circlePath);
+           document.querySelector("#holder").prepend(circlePath);
 
           let items = gsap.utils.toArray(".BILLBOARD__CIRCULAR__ITEM"),
             numItems = items.length,  itemStep = 1 / numItems,wrapProgress = gsap.utils.wrap(0, 1),
