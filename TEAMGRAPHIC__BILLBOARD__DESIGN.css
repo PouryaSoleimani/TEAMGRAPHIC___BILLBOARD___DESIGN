@@ -45,12 +45,34 @@
 .BILLBOARD__CIRCULAR__CONTAINER {
   position: relative;
   max-width: 500px;
-  margin: auto;    
+  margin: auto;
 }
 .BILLBOARD__CIRCULAR__WRAPPER {
   position: relative;
 }
-/* RESPONSIVE */
+.BILLBOARD__CIRCULAR__ITEM {
+  width: 50px;
+  height: 50px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 100%;
+  background-color: red;
+  z-index: 1;
+  cursor: pointer;
+}
+.BILLBOARD__CIRCULAR__ITEM.active {
+  background-color: blue;
+}
+.BILLBOARD__CIRCULAR__START {
+  position: absolute;
+  top: 50%;
+  right: -30px;
+}
+
+/* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
     width: 60%;
