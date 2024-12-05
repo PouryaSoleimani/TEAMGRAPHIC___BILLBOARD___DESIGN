@@ -117,31 +117,21 @@
         <script>
         gsap.registerPlugin(MotionPathPlugin);
 
-const circlePath = MotionPathPlugin.convertToPath("#holder", false)[0];
-circlePath.id = "circlePath";
-document.querySelector("svg").prepend(circlePath);
+        const circlePath = MotionPathPlugin.convertToPath("#holder", false)[0];
+        circlePath.id = "circlePath";
+            document.querySelector("svg").prepend(circlePath);
 
-    let items = gsap.utils.toArray(".BILLBOARD__CIRCULAR__ITEM"),
-     numItems = items.length,
-     itemStep = 1 / numItems,
-     wrapProgress = gsap.utils.wrap(0, 1),
-     snap = gsap.utils.snap(itemStep),
-     wrapTracker = gsap.utils.wrap(0, numItems),
-     tracker = { item: 0 };
+          let items = gsap.utils.toArray(".BILLBOARD__CIRCULAR__ITEM"),
+            numItems = items.length,  itemStep = 1 / numItems,wrapProgress = gsap.utils.wrap(0, 1),
+              snap = gsap.utils.snap(itemStep),
+              wrapTracker = gsap.utils.wrap(0, numItems),
+             tracker = { item: 0 };
 
-    gsap.set(items, {
-    motionPath: {
-       path: circlePath,
-       align: circlePath,
-       alignOrigin: [0.5, 0.5],
-       end: (i) => i / items.length
-     },
-     scale: 0.9
-    });
+                 gsap.set(items, {motionPath: {    path: circlePath,    align: circlePath,    alignOrigin: [0.5, 0.5],    end: (i) => i / items.length  },scale: 0.9    });
 
         const tl = gsap.timeline({ paused: true, reversed: true });
 
-    tl.to(".BILLBOARD__CIRCULAR__WRAPPER", {   rotation: 360,  transformOrigin: "center",  duration: 1,   ease: "none"  });
+              tl.to(".BILLBOARD__CIRCULAR__WRAPPER", {   rotation: 360,  transformOrigin: "center",  duration: 1,   ease: "none"  });
 
     tl.to(items,  {  rotation: "-=360",  transformOrigin: "center",  duration: 1,  ease: "none"  },0);
 
@@ -157,12 +147,7 @@ document.querySelector("svg").prepend(circlePath);
 
     if (Math.abs(diff) < numItems / 2) {moveWheel(diff * itemStep);} else {var amt = numItems - Math.abs(diff);
 
-      if (current > i) {
-        moveWheel(amt * -itemStep);
-      } else {
-        moveWheel(amt * itemStep);
-      }
-    }
+      if (current > i) {  moveWheel(amt * -itemStep);} else {moveWheel(amt * itemStep);}  }
   });
 });
 
@@ -188,7 +173,6 @@ function moveWheel(amount, i, index) {
 }
 
         </script>
-        <!-- *  END  ===================================================================================================================================== -->
-
+ <!-- *  END  ================================================================================================================================================================= -->
     </body>
 </html>
