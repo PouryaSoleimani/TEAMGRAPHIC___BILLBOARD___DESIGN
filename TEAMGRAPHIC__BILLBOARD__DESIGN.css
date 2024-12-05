@@ -83,13 +83,6 @@ svg {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.BILLBOARD__CIRCULAR__CIRCLE {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  background-color: #3498db; /* Circle color */
-  position: relative;
-}
 .st0 {
   fill: none;
   stroke: #000000;
