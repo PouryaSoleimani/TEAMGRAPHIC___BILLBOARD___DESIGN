@@ -76,10 +76,10 @@
                 <div class="BILLBOARD__CIRCULAR__ITEM  6">6</div>
                 <div class="BILLBOARD__CIRCULAR__ITEM  7">7</div>
                 <div class="BILLBOARD__CIRCULAR__ITEM  8">8</div>
-                <!-- <svg viewBox="0 0 300 300">
+                <svg viewBox="0 0 300 300">
                     <circle id="holder" class="st0" cx="151" cy="151" r="150" />
-                </svg> -->
-                <i id="holder" class="fa fa-circle-o st0" cx="151" cy="151" r="150"></i>
+                </svg>
+                <!-- <i id="holder" class="fa fa-circle-o st0" cx="151" cy="151" r="150"></i> -->
             </div>
             <div class="BILLBOARD__CIRCULAR__START">&#8592; Active</div>
         </div>
@@ -119,8 +119,8 @@
         gsap.registerPlugin(MotionPathPlugin);
 
         const circlePath = MotionPathPlugin.convertToPath("#holder", false)[0];
-        circlePath.id = "circlePath";
-            document.querySelector("i").prepend(circlePath);
+          circlePath.id = "circlePath";
+           document.querySelector("svg").prepend(circlePath);
 
           let items = gsap.utils.toArray(".BILLBOARD__CIRCULAR__ITEM"),
             numItems = items.length,  itemStep = 1 / numItems,wrapProgress = gsap.utils.wrap(0, 1),
@@ -130,9 +130,9 @@
 
                  gsap.set(items, {motionPath: {    path: circlePath,    align: circlePath,    alignOrigin: [0.5, 0.5],    end: (i) => i / items.length  },scale: 0.9    });
 
-        const tl = gsap.timeline({ paused: true, reversed: true });
+               const tl = gsap.timeline({ paused: true, reversed: true });
 
-              tl.to(".BILLBOARD__CIRCULAR__WRAPPER", {   rotation: 360,  transformOrigin: "center",  duration: 1,   ease: "none"  });
+                tl.to(".BILLBOARD__CIRCULAR__WRAPPER", {   rotation: 360,  transformOrigin: "center",  duration: 1,   ease: "none"  });
 
     tl.to(items,  {  rotation: "-=360",  transformOrigin: "center",  duration: 1,  ease: "none"  },0);
 
