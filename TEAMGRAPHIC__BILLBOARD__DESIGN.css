@@ -25,7 +25,7 @@
   background: #d3d3d3;
   border-radius: 60px;
 }
-.billboard-cat-slide{
+.billboard-cat-slide {
   margin-top: 1rem;
 }
 .billboard-cat-slide > img {
@@ -42,6 +42,15 @@
   padding: 2rem 1rem;
   line-height: 2;
 }
+.BILLBOARD__CIRCULAR__CONTAINER {
+  position: relative;
+  max-width: 500px;
+  margin: auto;    
+}
+.BILLBOARD__CIRCULAR__WRAPPER {
+  position: relative;
+}
+/* RESPONSIVE */
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
     width: 60%;
@@ -50,7 +59,7 @@
   #BILLBOARD__CATEGORIES {
     padding: 0rem 15%;
   }
-  .billboard-cat-slide{
+  .billboard-cat-slide {
     margin-top: 0rem;
   }
   .billboard-cat-slide > img {
