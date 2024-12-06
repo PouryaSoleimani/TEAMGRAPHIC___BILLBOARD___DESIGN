@@ -42,6 +42,11 @@
   padding: 2rem 1rem;
   line-height: 2;
 }
+.center-center-tg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
