@@ -42,10 +42,13 @@
   padding: 2rem 1rem;
   line-height: 2;
 }
-.center-center-tg{
+.center-center-tg {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.m-auto-tg {
+  margin: 0 auto !important;
 }
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
