@@ -52,6 +52,7 @@
 }
 .billboard-top-slider-img {
   object-fit: cover !important;
+  border-radius: 65px;
 }
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
