@@ -58,6 +58,9 @@
 .billboard-text-area-tg {
   width: 90%;
 }
+.swiper-pagination-bullet-active {
+  background-color: #fabb14 !important;
+}
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
