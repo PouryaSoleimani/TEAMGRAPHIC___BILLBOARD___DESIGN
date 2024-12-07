@@ -21,6 +21,9 @@
   line-height: 1.75;
   border-radius: 31px !important;
 }
+.CATEGORIES__SLIDER {
+  padding-top: 52px !important;
+}
 .billboard-swiper-tg {
   background: #d3d3d3;
   border-radius: 60px;
@@ -75,7 +78,7 @@
   }
   .billboard-cat-slide > img {
     object-fit: contain !important;
-    height: 130% !important;
+    height: calc(100% + 120px) !important;
   }
   .billboard-text-area-tg {
     width: 70%;
