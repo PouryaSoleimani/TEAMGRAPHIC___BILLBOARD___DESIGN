@@ -50,6 +50,9 @@
 .m-auto-tg {
   margin: 0 auto !important;
 }
+.billboard-top-slider-img {
+  object-fit: cover !important;
+}
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
