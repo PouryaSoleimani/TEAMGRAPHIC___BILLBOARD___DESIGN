@@ -54,6 +54,9 @@
   object-fit: cover !important;
   border-radius: 65px;
 }
+.billboard-text-area-tg {
+  width: 90%;
+}
 /* RESPONSIVE ***************************************************************/
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
@@ -69,5 +72,8 @@
   .billboard-cat-slide > img {
     object-fit: contain !important;
     height: 130% !important;
+  }
+  .billboard-text-area-tg {
+    width: 70%;
   }
 }
