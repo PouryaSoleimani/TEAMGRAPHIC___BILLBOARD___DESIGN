@@ -24,6 +24,7 @@
 .billboard-swiper-tg {
   background: #d3d3d3;
   border-radius: 60px;
+  scale: 0.9 1;
 }
 .billboard-cat-slide {
   margin-top: 1rem;
