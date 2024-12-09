@@ -64,7 +64,7 @@
 .swiper-pagination-bullet-active {
   background-color: #fabb14 !important;
 }
-/* RESPONSIVE ***************************************************************/
+/* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width: 1024px) {
   .billboard-intro-heading {
     width: 60%;
@@ -74,7 +74,7 @@
     padding: 3% 15%;
   }
   .billboard-cat-slide {
-    margin-top: 0rem;
+    margin-top: 0;
   }
   .billboard-cat-slide > img {
     object-fit: contain !important;
