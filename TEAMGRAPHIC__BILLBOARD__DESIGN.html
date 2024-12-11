@@ -20,20 +20,17 @@
             </div>
         </section>
 <!--^ TOP SLIDER ========================================================================================================================================================-->
-        <div class="swiper BILLBOARD__SWIPER pt-10 pb-6 w-[80%]">
+        <div class="swiper BILLBOARD__SWIPER pt-10 pb-6 w-[80%] h-auto">
             <div class="swiper-wrapper">
-                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/dbatFxRI/QGMtvWIq.webp" alt="slider-image" class="billboard-top-slider-img"></div>
                 <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/2tb53LAv.webp" alt="slider-image" class="billboard-top-slider-img"></div>
                 <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/eg0ypZ1k.webp" alt="slider-image" class="billboard-top-slider-img"></div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 4</div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 5</div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 6</div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 7</div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 8</div>
-                <div class="swiper-slide billboard-swiper-tg">Slide 9</div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/2tb53LAv.webp" alt="slider-image" class="billboard-top-slider-img"></div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/eg0ypZ1k.webp" alt="slider-image" class="billboard-top-slider-img"></div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/2tb53LAv.webp" alt="slider-image" class="billboard-top-slider-img"></div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/eg0ypZ1k.webp" alt="slider-image" class="billboard-top-slider-img"></div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/2tb53LAv.webp" alt="slider-image" class="billboard-top-slider-img"></div>
+                <div class="swiper-slide billboard-swiper-tg"><img src="/upload3/920/files/UoG0lgy9/J7CLBQG4/zsPyXItO/eg0ypZ1k.webp" alt="slider-image" class="billboard-top-slider-img"></div>
             </div>
-            <div class="swiper-button-next text-black pl-6"></div>
-            <div class="swiper-button-prev text-black pr-6"></div>
         </div>
 <!--^ TOP INTTRO TEXT ================================================================================================================================== ======================-->
         <p class="billboard-intro-heading">به تیم گرافیک خوش آمدید! اگر به دنبال طراحی بیلبوردهای تبلیغاتی حرفه‌ای و تأثیرگذار هستید، در جای درستی هستید. ما با سال‌ها تجربه در زمینه طراحی ، به شما کمک می‌کنیم تا پیام تبلیغاتی خود را به بهترین شکل به مخاطبان خود منتقل کنید.
@@ -549,10 +546,11 @@
                 spaceBetween: 15,
                 centeredSlides: true,
                 loop: true,
-                navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-               },
+                pagination: {
+                  el: ".swiper-pagination",
+                  dynamicBullets: true,
+                  clickable: true
+                }
             });
             var swiper = new Swiper(".CATEGORIES__SLIDER", {
                 slidesPerView: 1,
