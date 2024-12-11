@@ -84,7 +84,7 @@
     width: 70%;
   }
   .billboard-top-slider-img {
-    object-fit: cover !important;
+    object-fit: fill !important;
     border-radius: 65px;
   }
 }
