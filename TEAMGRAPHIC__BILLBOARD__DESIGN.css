@@ -78,8 +78,10 @@
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
-    width: 60%;
-    font-size: 20px;
+    width: 37%;
+    font-size: 23px;
+    margin-top: 28px;
+    font-weight: 700;
   }
   
   #BILLBOARD__CATEGORIES {
