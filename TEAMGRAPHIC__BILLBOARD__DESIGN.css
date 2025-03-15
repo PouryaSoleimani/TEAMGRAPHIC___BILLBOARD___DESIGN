@@ -74,8 +74,13 @@
 #CATEGORIES__TEXT {
   margin-top: 9rem;
 }
-#BILLBOARD__PROGRESS__TEXT h2{
-  
+
+#BILLBOARD__PROGRESS__TEXT h2 {
+  font-size: 2rem;
+  text-align: center;
+  width: 85%;
+  font-weight: 900;
+  line-height: 3rem;
 }
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
