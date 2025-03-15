@@ -30,7 +30,6 @@
 .billboard-swiper-tg {
   background: #d3d3d3;
   border-radius: 60px;
-  scale: .7;
 }
 
 .billboard-cat-slide {
@@ -104,5 +103,11 @@
   .billboard-top-slider-img {
     object-fit: fill !important;
     border-radius: 65px;
+  }
+  
+  .billboard-swiper-tg {
+    background: #d3d3d3;
+    border-radius: 60px;
+    scale: .7;
   }
 }
