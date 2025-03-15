@@ -48,6 +48,10 @@
   line-height: 2;
 }
 
+.billboard__progress__number {
+  width: 90vw;
+}
+
 .center-center-tg {
   display: flex;
   align-items: center;
@@ -146,5 +150,9 @@
   
   .billboard__textarea__header {
     font-size: 23px;
+  }
+  
+  .billboard__progress__number {
+    width: fit-content;
   }
 }
