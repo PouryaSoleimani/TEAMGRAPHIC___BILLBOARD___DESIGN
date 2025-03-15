@@ -74,6 +74,10 @@
 .swiper-pagination-bullet-active {
   background-color: #fabb14 !important;
 }
+
+#CATEGORIES__TEXT {
+  margin-top: 9rem;
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
@@ -109,5 +113,9 @@
     background: #d3d3d3;
     border-radius: 60px;
     scale: .7;
+  }
+  
+  #CATEGORIES__TEXT {
+    margin-top: 0rem;
   }
 }
