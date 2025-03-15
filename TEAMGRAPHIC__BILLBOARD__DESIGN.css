@@ -103,6 +103,11 @@
   font-weight: 900;
   line-height: 3rem;
 }
+
+.billboard__table__text {
+  font-size: 12px;
+  white-space: nowrap;
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
@@ -154,5 +159,10 @@
   
   .billboard__progress__number {
     width: fit-content;
+  }
+  
+  .billboard__table__text {
+    font-size: 19px;
+    white-space: nowrap;
   }
 }
