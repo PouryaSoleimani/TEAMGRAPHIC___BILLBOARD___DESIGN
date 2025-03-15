@@ -74,6 +74,9 @@
 #CATEGORIES__TEXT {
   margin-top: 9rem;
 }
+#BILLBOARD__PROGRESS__TEXT h2{
+  
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
