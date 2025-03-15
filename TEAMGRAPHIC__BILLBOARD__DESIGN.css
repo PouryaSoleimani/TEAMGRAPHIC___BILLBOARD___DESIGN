@@ -167,4 +167,8 @@
     font-size: 19px;
     white-space: nowrap;
   }
+  
+  .WORK__SAMPLES__IMAGE {
+    scale: 0.8;
+  }
 }
