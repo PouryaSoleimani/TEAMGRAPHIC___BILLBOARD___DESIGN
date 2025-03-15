@@ -50,6 +50,7 @@
 
 .billboard__progress__number {
   width: 90vw;
+  margin-bottom: 2rem;
 }
 
 .center-center-tg {
@@ -159,6 +160,7 @@
   
   .billboard__progress__number {
     width: fit-content;
+    margin-bottom: 1rem;
   }
   
   .billboard__table__text {
