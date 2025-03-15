@@ -71,6 +71,10 @@
   background-color: #fabb14 !important;
 }
 
+.billboard__textarea__header {
+  font-size: 19px;
+}
+
 #CATEGORIES__TEXT {
   margin-top: 0rem;
 }
@@ -130,5 +134,9 @@
   
   .CATEGORIES__SLIDER {
     padding-top: 52px !important;
+  }
+  
+  .billboard__textarea__header {
+    font-size: 23px;
   }
 }
