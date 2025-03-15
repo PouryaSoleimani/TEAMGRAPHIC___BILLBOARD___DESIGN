@@ -75,6 +75,14 @@
   font-size: 19px;
 }
 
+.billboard__textarea__Last__text {
+  font-size: 16px !important;
+  text-align: center;
+  width: 102%;
+  margin: auto;
+  line-height: 1.5;
+}
+
 #CATEGORIES__TEXT {
   margin-top: 0rem;
 }
