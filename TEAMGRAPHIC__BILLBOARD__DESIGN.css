@@ -114,6 +114,11 @@
   bottom: 0%;
 }
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
+@media screen and (min-width:560px){
+  #CATEGORIES__TEXT2 {
+    margin-bottom: 5rem;
+  }
+}
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
     width: 66%;
