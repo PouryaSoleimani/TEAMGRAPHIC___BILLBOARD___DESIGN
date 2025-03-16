@@ -277,4 +277,8 @@
   #BILLBOARD__PROGRESS__TEXT h2 {
     width: 63%;
   }
+  
+  .billboard__textarea__Last__text {
+    width: 75%;
+  }
 }
