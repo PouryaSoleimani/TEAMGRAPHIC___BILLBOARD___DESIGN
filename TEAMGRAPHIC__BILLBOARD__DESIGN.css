@@ -53,6 +53,10 @@
   margin-bottom: 2rem;
 }
 
+.billboard__worksamples__header {
+  width: 88%;
+}
+
 .center-center-tg {
   display: flex;
   align-items: center;
@@ -139,7 +143,7 @@
   }
   
   .billboard__worksamples__header {
-    width: 71%;
+    width: 70%;
   }
 }
 
