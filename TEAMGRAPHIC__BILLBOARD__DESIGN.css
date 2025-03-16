@@ -114,11 +114,22 @@
   bottom: 0%;
 }
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
-@media screen and (min-width:560px){
+@media screen and (min-width:560px) {
   #CATEGORIES__TEXT2 {
     margin-bottom: 5rem;
   }
 }
+
+@media screen and (min-width:640px) {
+  .swiper-pagination {
+    width: 130px;
+    left: 53%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    bottom: 0%;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
     width: 66%;
