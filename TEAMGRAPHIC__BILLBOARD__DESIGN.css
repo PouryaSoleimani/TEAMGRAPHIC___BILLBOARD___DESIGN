@@ -184,6 +184,16 @@
   }
 }
 
+@media screen and (min-width:950px) {
+  #BILLBOARD__PROGRESS__TEXT h2 {
+    width: 37%;
+  }
+  
+  .swiper-pagination {
+    top: 2%;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
     width: 66%;
