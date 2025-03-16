@@ -128,6 +128,11 @@
     white-space: nowrap;
     bottom: 0%;
   }
+  
+  .billboard-cat-slide > img {
+    object-fit: contain !important;
+    height: 94% !important;
+  }
 }
 
 @media screen and (min-width:1024px) {
