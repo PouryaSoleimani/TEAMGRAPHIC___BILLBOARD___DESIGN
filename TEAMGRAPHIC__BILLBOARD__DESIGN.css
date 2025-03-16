@@ -109,6 +109,10 @@
   font-size: 12px;
   white-space: nowrap;
 }
+
+.swiper-pagination {
+  bottom: 0%;
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
