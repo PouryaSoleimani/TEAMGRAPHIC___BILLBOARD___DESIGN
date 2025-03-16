@@ -119,7 +119,7 @@
 }
 
 .billboard__swiper__desc {
-  --tw-translate-y: -2.5rem;
+  transform: translateY(-2.5rem);
 }
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:420px) {
@@ -299,7 +299,7 @@
   }
   
   .billboard__swiper__desc {
-    --tw-translate-y: 0rem;
+    transform: translateY(0rem);
   }
 }
 
