@@ -117,6 +117,10 @@
 #PROGRESS__PAGINATION {
   bottom: 0%;
 }
+
+.billboard__swiper__desc {
+  --tw-translate-y: -2.5rem;
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:420px) {
   #BILLBOARD__PROGRESS__TEXT h2 {
@@ -292,6 +296,10 @@
   
   #PROGRESS__PAGINATION {
     bottom: 25%;
+  }
+  
+  .billboard__swiper__desc {
+    --tw-translate-y: 0rem;
   }
 }
 
