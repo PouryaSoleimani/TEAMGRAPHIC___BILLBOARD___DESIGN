@@ -190,7 +190,11 @@
   }
   
   .swiper-pagination {
-    top: 2%;
+    top: 96%;
+  }
+  
+  .billboard__worksamples__header {
+    width: 34%;
   }
 }
 
