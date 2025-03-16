@@ -148,12 +148,31 @@
     font-size: 16px;
     width: 80%;
   }
+  
+  #BILLBOARD__PROGRESS__TEXT h2 {
+    width: 47%;
+  }
 }
 
-@media screen and(min-width:780px) {
+@media screen and(min-width:768px) {
   .billboard-intro-heading {
     font-size: 18px;
     width: 71%;
+  }
+  
+  #BILLBOARD__PROGRESS__TEXT h2 {
+    width: 43%;
+  }
+}
+
+@media screen and (min-width:820px) {
+  .billboard__worksamples__header {
+    width: 45%;
+  }
+  
+  .billboard-intro-heading {
+    font-size: 18px;
+    width: 76%;
   }
 }
 
