@@ -163,6 +163,10 @@
   #BILLBOARD__PROGRESS__TEXT h2 {
     width: 43%;
   }
+  
+  .billboard__progress__number {
+    width: 78vw;
+  }
 }
 
 @media screen and (min-width:820px) {
