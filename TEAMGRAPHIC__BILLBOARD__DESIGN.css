@@ -145,6 +145,13 @@
   }
 }
 
+@media screen and(min-width:780px) {
+  .billboard-intro-heading {
+    font-size: 18px;
+    width: 71%;
+  }
+}
+
 @media screen and (min-width:1024px) {
   .billboard-intro-heading {
     width: 66%;
