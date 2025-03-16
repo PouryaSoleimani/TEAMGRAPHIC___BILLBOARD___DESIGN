@@ -113,6 +113,10 @@
 .swiper-pagination {
   bottom: 0%;
 }
+
+#PROGRESS__PAGINATION {
+  bottom: 1%;
+}
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:420px) {
   #BILLBOARD__PROGRESS__TEXT h2 {
@@ -280,6 +284,10 @@
   
   .billboard__textarea__Last__text {
     width: 75%;
+  }
+  
+  #PROGRESS__PAGINATION {
+    bottom: 25%;
   }
 }
 
