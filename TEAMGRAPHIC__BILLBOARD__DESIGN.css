@@ -278,6 +278,10 @@
     scale: 1.2;
   }
   
+  #BILLBOARD__PROGRESS__TEXT {
+    margin-bottom: 5rem !important;
+  }
+  
   #BILLBOARD__PROGRESS__TEXT h2 {
     width: 63%;
   }
