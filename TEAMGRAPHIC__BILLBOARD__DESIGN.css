@@ -137,6 +137,10 @@
   #BILLBOARD__PROGRESS__TEXT h2 {
     width: 56%;
   }
+  
+  .billboard__worksamples__header {
+    width: 71%;
+  }
 }
 
 @media screen and (min-width:640px) {
