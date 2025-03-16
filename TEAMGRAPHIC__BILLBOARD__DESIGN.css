@@ -292,7 +292,7 @@
   }
 }
 
-@media screen and (min-width:1380px){
+@media screen and (min-width:1380px) {
   .billboard-intro-heading {
     width: 50%;
     font-size: 22px;
