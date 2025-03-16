@@ -120,6 +120,7 @@
 
 .billboard__swiper__desc {
   transform: translateY(-2.5rem);
+  font-size: 1rem;
 }
 /* RESPONSIVE *********************************************************************************************************************************************************************** */
 @media screen and (min-width:420px) {
@@ -174,6 +175,12 @@
   
   .billboard__progress__number {
     width: 78vw;
+  }
+  
+  .billboard__swiper__desc {
+    transform: translateY(-3.5rem);
+    font-size: 1rem;
+    width: 65%;
   }
 }
 
