@@ -259,4 +259,8 @@
   .WORK__SAMPLES__IMAGE {
     scale: 0.8;
   }
+  
+  .BILLBOARD__SWIPER {
+    scale: 1.2;
+  }
 }
