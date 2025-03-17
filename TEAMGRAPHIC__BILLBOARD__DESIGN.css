@@ -133,6 +133,12 @@
   }
 }
 
+@media screen and (min-width:520px) {
+  .billboard__worksamples__header {
+    width: 79%;
+  }
+}
+
 @media screen and (min-width:560px) {
   #CATEGORIES__TEXT2 {
     margin-bottom: 5rem;
