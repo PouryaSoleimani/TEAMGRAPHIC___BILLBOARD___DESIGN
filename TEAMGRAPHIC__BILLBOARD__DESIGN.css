@@ -201,6 +201,10 @@
     font-size: 1rem;
     width: 65%;
   }
+  
+  .billboard__worksamples__header {
+    width: 53%;
+  }
 }
 
 @media screen and (min-width:820px) {
